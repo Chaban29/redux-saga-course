@@ -1,10 +1,12 @@
 import { FC } from 'react';
-import { Counter } from './components/Counter/Counter';
+import { Users } from './components/Users/Users';
+import { Posts } from './components/Posts/Posts';
 
 export const App: FC = () => {
   return (
     <div>
-      <Counter />
+      <Posts />
+      <Users />
     </div>
   );
 };
